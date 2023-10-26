@@ -62,9 +62,31 @@
         where c1.category_level = 1
     </select>
 
+    <resultMap id="categoryVOMap2" type="com.lltech.llmall.entity.CategoryVO">
+        <id column="category_id" jdbcType="INTEGER" property="categoryId"/>
+        <result column="category_name" jdbcType="VARCHAR" property="categoryName"/>
+        <result column="category_level" jdbcType="INTEGER" property="categoryLevel"/>
+        <result column="parent_id" jdbcType="INTEGER" property="parentId"/>
+        <result column="category_icon" jdbcType="VARCHAR" property="categoryIcon"/>
+        <result column="category_slogan" jdbcType="VARCHAR" property="categorySlogan"/>
+        <result column="category_pic" jdbcType="VARCHAR" property="categoryPic"/>
+        <result column="category_bg_color" jdbcType="VARCHAR" property="categoryBgColor"/>
+        <collection property="categories" column="category_id" select="com.lltech.llmall.dao.CategoryMapper.selectAllCategories2"/>
+    </resultMap>
 
-
-
+    <select id="selectAllCategories2" resultMap="categoryVOMap2">
+        select
+            category_id,
+            category_name,
+            category_level,
+            parent_id,
+            category_icon,
+            category_slogan,
+            category_pic,
+            category_bg_color
+        from category
+        where parent_id=#{parentId}
+    </select>
 
 
 

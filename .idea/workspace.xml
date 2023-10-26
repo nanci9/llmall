@@ -5,141 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4143cfb4-18a7-41dd-b13a-6738fd06fc00" name="Changes" comment="Change">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1b3298ef-8187-4125-9722-7258e6a106f8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1b3298ef-8187-4125-9722-7258e6a106f8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1b3298ef-8187-4125-9722-7258e6a106f8/storage_v2/_src_/schema/llmall.lFNwvg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1b3298ef-8187-4125-9722-7258e6a106f8/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1b3298ef-8187-4125-9722-7258e6a106f8/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1b3298ef-8187-4125-9722-7258e6a106f8/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/ApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ShopcartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/interceptor/CheckTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/CategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/IndexImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductSku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/UserAddr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/UserLoginHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/CategoryVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/IndexImg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/OrderItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductComments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductImg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductSku.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ShoppingCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/UserAddr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/UserLoginHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lltech/llmall/utils/Base64Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lltech/llmall/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lltech/llmall/vo/ResStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lltech/llmall/vo/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/lltech/llmall/utils/Base64Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/lltech/llmall/utils/MD5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/lltech/llmall/vo/ResStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/lltech/llmall/vo/ResultVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/IndexImgMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/OrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductCommentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductImgMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductParamsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductSkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ShoppingCartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/UserAddrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/UserLoginHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/UsersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/general/GeneralDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/IndexImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/OrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductCommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductParamsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductSkuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/UserAddrMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/UserLoginHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/IndexImgMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/OrderItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/OrdersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductCommentsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductImgMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductParamsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductSkuMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ShoppingCartMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/UserAddrMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/UserLoginHistoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/UsersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/general/GeneralDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/generator/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/IndexImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/OrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductCommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductParamsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductSkuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ShoppingCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/UserAddrMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/UserLoginHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/IndexService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/IndexServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/IndexService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/impl/IndexServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/CategoryMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +82,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "http.proxy",
     "spring.configuration.checksum": "9fa33643843cb59cf4bb2d8646b6bf30",
     "vue.rearranger.settings.migration": "true"
   },
@@ -252,7 +124,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration name="ApiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <extension name="coverage">
@@ -264,6 +136,22 @@
       <option name="PACKAGE_NAME" value="com.lltech.llmall" />
       <option name="MAIN_CLASS_NAME" value="com.lltech.llmall.ApiApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplicationTests.categories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lltech.llmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lltech.llmall" />
+      <option name="MAIN_CLASS_NAME" value="com.lltech.llmall.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="categories" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,6 +188,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="JUnit.ApiApplicationTests.categories" />
         <item itemvalue="JUnit.ApiApplicationTests.contextLoads" />
         <item itemvalue="JUnit.ApiApplicationTests" />
       </list>
@@ -363,8 +252,17 @@
       <workItem from="1697676198332" duration="5257000" />
       <workItem from="1697768726155" duration="9453000" />
       <workItem from="1698040371261" duration="10499000" />
-      <workItem from="1698123886355" duration="1791000" />
+      <workItem from="1698123886355" duration="4136000" />
     </task>
+    <task id="LOCAL-00001" summary="Change">
+      <option name="closed" value="true" />
+      <created>1698127153204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698127153204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

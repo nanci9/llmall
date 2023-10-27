@@ -30,6 +30,7 @@ public class IndexController {
     @GetMapping("/category-list")
     @Operation(summary = "商品分类查询接口")
     public ResultVO listCategory(){
+
         return categoryService.listCategories();
     }
 

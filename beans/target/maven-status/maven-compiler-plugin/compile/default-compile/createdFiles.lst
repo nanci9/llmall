@@ -1,0 +1,14 @@
+com/lltech/llmall/entity/UserLoginHistory.class
+com/lltech/llmall/entity/UserAddr.class
+com/lltech/llmall/entity/IndexImg.class
+com/lltech/llmall/entity/ShoppingCart.class
+com/lltech/llmall/entity/ProductParams.class
+com/lltech/llmall/entity/ProductComments.class
+com/lltech/llmall/entity/CategoryVO.class
+com/lltech/llmall/entity/Product.class
+com/lltech/llmall/entity/Users.class
+com/lltech/llmall/entity/Orders.class
+com/lltech/llmall/entity/ProductSku.class
+com/lltech/llmall/entity/Category.class
+com/lltech/llmall/entity/OrderItem.class
+com/lltech/llmall/entity/ProductImg.class

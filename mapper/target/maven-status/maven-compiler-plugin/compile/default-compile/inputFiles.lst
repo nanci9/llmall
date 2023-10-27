@@ -1,0 +1,14 @@
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/UsersMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/ProductMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/general/GeneralDAO.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/CategoryMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/UserLoginHistoryMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/ProductSkuMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/ProductCommentsMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/IndexImgMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/ProductParamsMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/ProductImgMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/OrderItemMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/OrdersMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/UserAddrMapper.java
+/Users/linmu/code/IdeaProjects/llmall/mapper/src/main/java/com/lltech/llmall/dao/ShoppingCartMapper.java

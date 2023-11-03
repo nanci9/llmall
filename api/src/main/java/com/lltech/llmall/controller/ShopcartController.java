@@ -6,6 +6,7 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.lltech.llmall.vo.ResStatus;
 import com.lltech.llmall.vo.ResultVO;
+import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +18,9 @@ import org.springframework.web.bind.annotation.*;
 public class ShopcartController {
 
     @GetMapping("/list")
+    @Operation(summary = "购物车列表接口")
     @Parameter(name = "token", description = "授权令牌", required = true)
-    public ResultVO listCarts(String token) {
+    public ResultVO listCarts(@RequestHeader("token") String token) {
         System.out.println(token);
         if (token == null) {
             return new ResultVO(ResStatus.NO, "请先登录", null);

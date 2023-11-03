@@ -2,6 +2,7 @@ package com.lltech.llmall.controller;
 
 import com.lltech.llmall.service.CategoryService;
 import com.lltech.llmall.service.IndexService;
+import com.lltech.llmall.service.ProductService;
 import com.lltech.llmall.vo.ResultVO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -21,8 +22,12 @@ public class IndexController {
     private IndexService indexService;
     @Autowired
     private CategoryService categoryService;
+    @Autowired
+    private ProductService productService;
+
+
     @GetMapping("/indeximg")
-    @Operation(summary = "首页轮播图接口")
+        @Operation(summary = "首页轮播图接口")
     public ResultVO listIndexImgs(){
         return indexService.listIndexImgs();
     }
@@ -34,4 +39,9 @@ public class IndexController {
         return categoryService.listCategories();
     }
 
+    @GetMapping("/list-recommends")
+    @Operation(summary = "查询推荐商品接口")
+    public ResultVO listRecommendProducts(){
+        return productService.listRecommendProducts();
+    }
 }

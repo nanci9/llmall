@@ -1,8 +1,11 @@
 package com.lltech.llmall.entity;
 
+import lombok.Data;
+
 import java.util.Date;
 import javax.persistence.*;
 
+@Data
 @Table(name = "product_img")
 public class ProductImg {
     /**

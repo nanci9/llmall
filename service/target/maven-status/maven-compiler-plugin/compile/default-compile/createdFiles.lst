@@ -1,6 +1,8 @@
 com/lltech/llmall/service/UserService.class
+com/lltech/llmall/service/impl/CategoryServiceImpl.class
+com/lltech/llmall/service/impl/ProductServiceImpl.class
+com/lltech/llmall/service/ProductService.class
 com/lltech/llmall/service/impl/UserServiceImpl.class
 com/lltech/llmall/service/impl/IndexServiceImpl.class
 com/lltech/llmall/service/CategoryService.class
-com/lltech/llmall/service/impl/CategoryServiceImpl.class
 com/lltech/llmall/service/IndexService.class

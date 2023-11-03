@@ -6,6 +6,7 @@ com/lltech/llmall/entity/ProductParams.class
 com/lltech/llmall/entity/ProductComments.class
 com/lltech/llmall/entity/CategoryVO.class
 com/lltech/llmall/entity/Product.class
+com/lltech/llmall/entity/ProductVO.class
 com/lltech/llmall/entity/Users.class
 com/lltech/llmall/entity/Orders.class
 com/lltech/llmall/entity/ProductSku.class

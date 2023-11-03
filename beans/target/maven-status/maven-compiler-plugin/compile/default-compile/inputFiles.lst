@@ -8,6 +8,7 @@
 /Users/linmu/code/IdeaProjects/llmall/beans/src/main/java/com/lltech/llmall/entity/CategoryVO.java
 /Users/linmu/code/IdeaProjects/llmall/beans/src/main/java/com/lltech/llmall/entity/ProductComments.java
 /Users/linmu/code/IdeaProjects/llmall/beans/src/main/java/com/lltech/llmall/entity/Product.java
+/Users/linmu/code/IdeaProjects/llmall/beans/src/main/java/com/lltech/llmall/entity/ProductVO.java
 /Users/linmu/code/IdeaProjects/llmall/beans/src/main/java/com/lltech/llmall/entity/ShoppingCart.java
 /Users/linmu/code/IdeaProjects/llmall/beans/src/main/java/com/lltech/llmall/entity/UserLoginHistory.java
 /Users/linmu/code/IdeaProjects/llmall/beans/src/main/java/com/lltech/llmall/entity/OrderItem.java

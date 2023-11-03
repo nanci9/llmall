@@ -1,7 +1,9 @@
 package com.lltech.llmall;
 
 import com.lltech.llmall.dao.CategoryMapper;
+import com.lltech.llmall.dao.ProductMapper;
 import com.lltech.llmall.entity.CategoryVO;
+import com.lltech.llmall.entity.ProductVO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,8 @@ public class ApiApplicationTests {
 
     @Autowired
     private CategoryMapper categoryMapper;
+    @Autowired
+    private ProductMapper productMapper;
 
 //    @Test
 //    public void contextLoads() {
@@ -42,6 +46,14 @@ public class ApiApplicationTests {
                     System.out.println("\t\t" + c3.toString());
                 }
             }
+        }
+    }
+
+    @Test
+    public void testRecommend(){
+        List<ProductVO> productVOS = productMapper.selectRecommendProducts();
+        for (ProductVO p : productVOS){
+            System.out.println(p);
         }
     }
 

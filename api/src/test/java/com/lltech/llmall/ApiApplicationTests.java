@@ -57,4 +57,12 @@ public class ApiApplicationTests {
         }
     }
 
+    @Test
+    public void testSelectFirstLevelCategory(){
+        List<CategoryVO> categoryVOS = categoryMapper.selectFirstCategories();
+        for (CategoryVO c:categoryVOS){
+            System.out.println(c);
+        }
+    }
+
 }

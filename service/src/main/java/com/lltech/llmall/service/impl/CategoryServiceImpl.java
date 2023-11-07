@@ -13,11 +13,23 @@ import java.util.List;
 @Service
 public class CategoryServiceImpl implements CategoryService {
 
+    /**
+     * 查询分类接口（三级分类）
+     */
     @Autowired
     private CategoryMapper categoryMapper;
     @Override
     public ResultVO listCategories() {
         List<CategoryVO> categoryVOS = categoryMapper.selectAllCategories();
+        return new ResultVO(ResStatus.OK,"success",categoryVOS);
+    }
+
+    /**
+     * 查询所有一级分类，以及分类下销量最高的六个商品
+     */
+    @Override
+    public ResultVO listFirstLevelCategory() {
+        List<CategoryVO> categoryVOS = categoryMapper.selectFirstCategories();
         return new ResultVO(ResStatus.OK,"success",categoryVOS);
     }
 }

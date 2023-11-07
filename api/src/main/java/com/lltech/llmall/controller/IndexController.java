@@ -40,8 +40,14 @@ public class IndexController {
     }
 
     @GetMapping("/list-recommends")
-    @Operation(summary = "查询推荐商品接口")
+    @Operation(summary = "新品推荐接口")
     public ResultVO listRecommendProducts(){
         return productService.listRecommendProducts();
+    }
+
+    @GetMapping("/category-recommends")
+    @Operation(summary = "分类推荐接口")
+    public ResultVO listRecommendProductsByCategory(){
+        return categoryService.listFirstLevelCategory();
     }
 }

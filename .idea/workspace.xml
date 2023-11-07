@@ -5,33 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4143cfb4-18a7-41dd-b13a-6738fd06fc00" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ShopcartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ShopcartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductImg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/target/beans-2.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beans/target/beans-2.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductImg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/beans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/beans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/common-2.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-2.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductImgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductImgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/CategoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/CategoryVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/CategoryVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/CategoryVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductImgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductImgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductImgMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductImgMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/CategoryMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductImgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductImgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/CategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/target/mapper-2.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/mapper-2.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/service-2.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/service-2.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,21 +140,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ApiApplication">
-    <configuration name="ApiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lltech.llmall.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lltech.llmall" />
-      <option name="MAIN_CLASS_NAME" value="com.lltech.llmall.ApiApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiApplicationTests.categories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <extension name="coverage">
@@ -212,6 +188,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiApplicationTests.testSelectFirstLevelCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lltech.llmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lltech.llmall" />
+      <option name="MAIN_CLASS_NAME" value="com.lltech.llmall.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="testSelectFirstLevelCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lltech.llmall.ApiApplication" />
@@ -228,10 +220,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="JUnit.ApiApplicationTests.testSelectFirstLevelCategory" />
         <item itemvalue="JUnit.ApiApplicationTests.testRecommend" />
         <item itemvalue="JUnit.ApiApplicationTests.categories" />
         <item itemvalue="JUnit.ApiApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.ApiApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +287,7 @@
       <workItem from="1698040371261" duration="10499000" />
       <workItem from="1698123886355" duration="9777000" />
       <workItem from="1698397714881" duration="773000" />
-      <workItem from="1698511823836" duration="13141000" />
+      <workItem from="1698511823836" duration="20782000" />
     </task>
     <task id="LOCAL-00001" summary="Change">
       <option name="closed" value="true" />
@@ -369,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698397726547</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1699002022680</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699002022680</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

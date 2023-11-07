@@ -43,4 +43,22 @@
     limit 0,3
 
   </select>
+
+
+  <select id="selectTop6Products" resultMap="ProductVOMap">
+    select
+      product_id,
+      product_name,
+      category_id,
+      root_category_id,
+      sold_num,
+      product_status,
+      content,
+      create_time,
+      update_time
+    from product
+    where root_category_id=#{cid}
+    order by sold_num desc
+    limit 0,6
+  </select>
 </mapper>

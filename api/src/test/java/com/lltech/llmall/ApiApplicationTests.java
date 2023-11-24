@@ -1,8 +1,10 @@
 package com.lltech.llmall;
 
 import com.lltech.llmall.dao.CategoryMapper;
+import com.lltech.llmall.dao.ProductCommentsMapper;
 import com.lltech.llmall.dao.ProductMapper;
 import com.lltech.llmall.entity.CategoryVO;
+import com.lltech.llmall.entity.ProductCommentsVO;
 import com.lltech.llmall.entity.ProductVO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,6 +22,8 @@ public class ApiApplicationTests {
     private CategoryMapper categoryMapper;
     @Autowired
     private ProductMapper productMapper;
+    @Autowired
+    private ProductCommentsMapper productCommentsMapper;
 
 //    @Test
 //    public void contextLoads() {
@@ -62,6 +66,14 @@ public class ApiApplicationTests {
         List<CategoryVO> categoryVOS = categoryMapper.selectFirstCategories();
         for (CategoryVO c:categoryVOS){
             System.out.println(c);
+        }
+    }
+
+    @Test
+    public void testComments(){
+        List<ProductCommentsVO> productCommentsVOS = productCommentsMapper.selectCommentsByProductId("3");
+        for (ProductCommentsVO p:productCommentsVOS){
+            System.out.println(p);
         }
     }
 

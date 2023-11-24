@@ -27,7 +27,7 @@ public class IndexController {
 
 
     @GetMapping("/indeximg")
-        @Operation(summary = "首页轮播图接口")
+    @Operation(summary = "首页轮播图接口")
     public ResultVO listIndexImgs(){
         return indexService.listIndexImgs();
     }

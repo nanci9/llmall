@@ -12,4 +12,5 @@ public interface ProductMapper extends GeneralDAO<Product> {
 
     //查询指定一级下销量最高的6个商品
     List<ProductVO> selectTop6Products(int productId);
+
 }

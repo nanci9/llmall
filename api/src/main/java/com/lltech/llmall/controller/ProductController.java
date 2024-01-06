@@ -4,6 +4,8 @@ import com.lltech.llmall.service.ProductCommentsService;
 import com.lltech.llmall.service.ProductService;
 import com.lltech.llmall.vo.ResultVO;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.Parameters;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -32,8 +34,12 @@ public class ProductController {
 
     @GetMapping("/detail-comments/{pid}")
     @Operation(summary = "商品评论信息查询接口")
-    public ResultVO getProductComments(@PathVariable("pid") String pid){
-        return productCommentsService.getProductCommentsById(pid);
+    @Parameters({
+            @Parameter(name = "pageNum", description = "当前页码", required = true),
+            @Parameter(name = "limit", description = "每页显示条数", required = true)
+    })
+    public ResultVO getProductComments(@PathVariable("pid") String pid,int pageNum,int limit){
+        return productCommentsService.getProductCommentsById(pid,pageNum,limit);
     }
 
 }

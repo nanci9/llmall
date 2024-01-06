@@ -65,5 +65,6 @@
     inner join users u
     on c.user_id=u.user_id
     where product_id=#{productId}
+    limit #{start},#{limit}
   </select>
 </mapper>

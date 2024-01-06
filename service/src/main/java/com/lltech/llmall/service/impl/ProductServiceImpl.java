@@ -64,7 +64,7 @@ public class ProductServiceImpl implements ProductService {
         }else {
             return new ResultVO(ResStatus.NO,"商品不存在或已经下架",null);
         }
-
+ 
     }
 
     @Override
@@ -74,7 +74,9 @@ public class ProductServiceImpl implements ProductService {
         criteria.andEqualTo("productId",productId);
         List<ProductParams> productParams = productParamsMapper.selectByExample(example);
         if (productParams.size()>0){
-            return new ResultVO(ResStatus.OK,"success",productParams);
+            //System.out.println(productParams);
+            return new ResultVO(ResStatus.OK,"success",productParams.get(0));
+
         }else {
             return new ResultVO(ResStatus.NO,"此商品可能为三无产品",null);
         }

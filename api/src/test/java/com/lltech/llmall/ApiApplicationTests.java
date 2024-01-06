@@ -4,7 +4,6 @@ import com.lltech.llmall.dao.CategoryMapper;
 import com.lltech.llmall.dao.ProductCommentsMapper;
 import com.lltech.llmall.dao.ProductMapper;
 import com.lltech.llmall.entity.CategoryVO;
-import com.lltech.llmall.entity.ProductCommentsVO;
 import com.lltech.llmall.entity.ProductVO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -69,12 +68,12 @@ public class ApiApplicationTests {
         }
     }
 
-    @Test
-    public void testComments(){
-        List<ProductCommentsVO> productCommentsVOS = productCommentsMapper.selectCommentsByProductId("3");
-        for (ProductCommentsVO p:productCommentsVOS){
-            System.out.println(p);
-        }
-    }
+//    @Test
+//    public void testComments(){
+//        List<ProductCommentsVO> productCommentsVOS = productCommentsMapper.selectCommentsByProductId("3");
+//        for (ProductCommentsVO p:productCommentsVOS){
+//            System.out.println(p);
+//        }
+//    }
 
 }

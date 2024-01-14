@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4143cfb4-18a7-41dd-b13a-6738fd06fc00" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lltech/llmall/utils/PageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ShopcartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ShopcartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ProductParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/beans/target/classes/com/lltech/llmall/entity/ProductParams.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductCommentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductCommentsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductCommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ProductCommentsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductCommentsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductCommentsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductParamsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ProductParamsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductCommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ProductCommentsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ProductCommentsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ProductCommentsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ProductCommentsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ProductCommentsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/lltech/llmall/service/impl/ProductServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +289,7 @@
       <workItem from="1703759746021" duration="98000" />
       <workItem from="1704033392165" duration="2669000" />
       <workItem from="1704432927357" duration="1532000" />
-      <workItem from="1704554591789" duration="409000" />
+      <workItem from="1704554591789" duration="9378000" />
     </task>
     <task id="LOCAL-00001" summary="Change">
       <option name="closed" value="true" />
@@ -425,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700790889320</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1704555205309</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704555205309</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

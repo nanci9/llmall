@@ -42,4 +42,10 @@ public class ProductController {
         return productCommentsService.getProductCommentsById(pid,pageNum,limit);
     }
 
+    @GetMapping("/detail-commentscount/{pid}")
+    @Operation(summary = "商品评价统计查询接口")
+    public ResultVO getCommentsCountById(@PathVariable("pid") String pid){
+        return productCommentsService.getCommentsCountById(pid);
+    }
+
 }

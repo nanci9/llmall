@@ -3,8 +3,10 @@ package com.lltech.llmall;
 import com.lltech.llmall.dao.CategoryMapper;
 import com.lltech.llmall.dao.ProductCommentsMapper;
 import com.lltech.llmall.dao.ProductMapper;
+import com.lltech.llmall.dao.ShoppingCartMapper;
 import com.lltech.llmall.entity.CategoryVO;
 import com.lltech.llmall.entity.ProductVO;
+import com.lltech.llmall.entity.ShoppingCartVO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +25,8 @@ public class ApiApplicationTests {
     private ProductMapper productMapper;
     @Autowired
     private ProductCommentsMapper productCommentsMapper;
+    @Autowired
+    private ShoppingCartMapper shoppingCartMapper;
 
 //    @Test
 //    public void contextLoads() {
@@ -75,5 +79,11 @@ public class ApiApplicationTests {
 //            System.out.println(p);
 //        }
 //    }
+
+    @Test
+    public void testShopcart(){
+        List<ShoppingCartVO> shoppingCartVOS = shoppingCartMapper.selectShopcartByUserId(1);
+        System.out.println(shoppingCartVOS);
+    }
 
 }

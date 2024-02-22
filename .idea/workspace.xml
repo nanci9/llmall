@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4143cfb4-18a7-41dd-b13a-6738fd06fc00" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/UserAddrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/lltech/llmall/entity/ShoppingCartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/UserAddrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/UserAddrServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductCommentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ProductCommentsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ProductCommentsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/ProductCommentsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ProductCommentsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lltech/llmall/service/impl/ProductCommentsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ShopcartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/controller/ShopcartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/interceptor/CheckTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/lltech/llmall/interceptor/CheckTokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/com/lltech/llmall/ApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lltech/llmall/vo/ResStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lltech/llmall/vo/ResStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/lltech/llmall/vo/ResStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/lltech/llmall/vo/ResStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ShoppingCartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/ShoppingCartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/UserAddrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/lltech/llmall/dao/UserAddrMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/resources/mappers/ShoppingCartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ShoppingCartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/com/lltech/llmall/dao/ShoppingCartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/target/classes/mappers/ShoppingCartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/target/classes/mappers/ShoppingCartMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,41 +77,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/linmu/code/IdeaProjects/llmall",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.24573721",
-    "spring.configuration.checksum": "9fa33643843cb59cf4bb2d8646b6bf30",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/linmu/code/IdeaProjects/llmall&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24573721&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9fa33643843cb59cf4bb2d8646b6bf30&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -135,22 +146,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ApiApplication">
-    <configuration name="ApiApplicationTests.categories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lltech.llmall.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lltech.llmall" />
-      <option name="MAIN_CLASS_NAME" value="com.lltech.llmall.ApiApplicationTests" />
-      <option name="METHOD_NAME" value="categories" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiApplicationTests.testComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <extension name="coverage">
@@ -199,6 +194,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiApplicationTests.testShopcart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lltech.llmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lltech.llmall" />
+      <option name="MAIN_CLASS_NAME" value="com.lltech.llmall.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="testShopcart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lltech.llmall.ApiApplication" />
@@ -215,10 +226,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="JUnit.ApiApplicationTests.testShopcart" />
         <item itemvalue="JUnit.ApiApplicationTests.testComments" />
         <item itemvalue="JUnit.ApiApplicationTests.testSelectFirstLevelCategory" />
         <item itemvalue="JUnit.ApiApplicationTests.testRecommend" />
-        <item itemvalue="JUnit.ApiApplicationTests.categories" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +300,12 @@
       <workItem from="1703759746021" duration="98000" />
       <workItem from="1704033392165" duration="2669000" />
       <workItem from="1704432927357" duration="1532000" />
-      <workItem from="1704554591789" duration="9378000" />
+      <workItem from="1704554591789" duration="18899000" />
+      <workItem from="1707836079859" duration="414000" />
+      <workItem from="1707836593408" duration="898000" />
+      <workItem from="1707838457752" duration="133000" />
+      <workItem from="1707838667503" duration="59000" />
+      <workItem from="1707838759571" duration="11061000" />
     </task>
     <task id="LOCAL-00001" summary="Change">
       <option name="closed" value="true" />
@@ -419,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704555205309</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1705238547457</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705238547457</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
